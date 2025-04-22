@@ -4,12 +4,14 @@
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
+  --font-Bodoni: "Bodoni Moda", "serif";
   --color-navColor: #74512d;
   /* --color-navColor: #ffffff;
   --color-blackFont: #2a2a2a; */
   --color-goldFont: #feba17;
   --color-lightBrown: #74512d;
   --color-darkBrown: #4e1f00;
+  --color-introBg: #F8F4E1;
 }
 
 html,
