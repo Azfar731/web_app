@@ -33,8 +33,11 @@ export default function Navbar() {
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
           >
-            <NavLink to="/team" className="hover:text-gray-500">
-              Team
+            <NavLink
+              to="/team"
+              className="flex justify-between items-center hover:text-gray-500"
+            >
+              Team <RiArrowDropDownLine className="w-8 h-8" />
             </NavLink>
 
             {/* Dropdown panel */}
