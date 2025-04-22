@@ -44,6 +44,14 @@ export default function Navbar() {
     <nav className="fixed w-full bg-navColor text-gray-50 z-50">
       {/* Top bar: Hamburger - Logo - placeholder */}
       <div className="flex items-center justify-between px-4 py-3 md:px-12">
+        {/* Placeholder to keep logo centered */}
+        <div className="w-6 h-6 md:hidden" />
+       
+        {/* Logo centered */}
+        <div className="flex-1 flex justify-center md:justify-start">
+          <Logo className="w-32 h-auto text-blue-500" />
+        </div>
+
         {/* Hamburger icon on mobile */}
         <button
           onClick={handleMobileToggle}
@@ -56,15 +64,6 @@ export default function Navbar() {
             <RiMenu3Line className="w-6 h-6" />
           )}
         </button>
-
-        {/* Logo centered */}
-        <div className="flex-1 flex justify-center md:justify-start">
-          <Logo className="w-32 h-auto text-blue-500" />
-        </div>
-
-        {/* Placeholder to keep logo centered */}
-        <div className="w-6 h-6 md:hidden" />
-
         {/* Desktop links */}
         <ul className="hidden md:flex space-x-8 text-lg font-medium">
           <li>
@@ -125,49 +124,43 @@ export default function Navbar() {
 
       {/* Mobile menu panel */}
       <div
-        className={`${mobileOpen ? "block" : "hidden"} md:hidden bg-navColor`}
+        className={`${
+          mobileOpen ? "block" : "hidden"
+        } md:hidden bg-white text-lightBrown`}
       >
-        <ul className="flex flex-col text-base font-medium">
-          <li className="border-t border-gray-700">
-            <NavLink to="/" className="block px-4 py-3 hover:bg-gray-700">
+        <ul className="flex flex-col items-center justify-center text-base font-medium ">
+          <li>
+            <NavLink to="/" className="block py-3 hover:bg-gray-700">
               About
             </NavLink>
           </li>
-          <li className="border-t border-gray-700">
+          <li>
             <button
+              type="button"
               onClick={handleTeamToggle}
-              className="w-full flex items-center justify-between px-4 py-3 hover:bg-gray-700 focus:outline-none"
+              className="w-full flex items-center justify-center py-3 hover:bg-gray-700 focus:outline-none text-center"
             >
-              <span>Team</span>
+              <div className="pl-4">Team</div>
               {teamOpen ? (
-                <RiArrowDropUpLine className="w-5 h-5" />
+                <RiArrowDropUpLine className="w-8 h-8" />
               ) : (
-                <RiArrowDropDownLine className="w-5 h-5" />
+                <RiArrowDropDownLine className="w-8 h-8" />
               )}
             </button>
             {teamOpen && (
               <ul className="bg-navColor">
                 <li>
-                  <NavLink
-                    to="/team/mehr-ali-hassan"
-                    className="block px-6 py-2 hover:bg-gray-700"
-                  >
+                  <NavLink to="/team/mehr-ali-hassan" className="block py-2 ">
                     Mehr Ali Hassan
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink
-                    to="/team/fahad-zaheer"
-                    className="block px-6 py-2 hover:bg-gray-700"
-                  >
+                  <NavLink to="/team/fahad-zaheer" className="block  py-2 ">
                     Fahad Zaheer
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink
-                    to="/team/umar-shabbir"
-                    className="block px-6 py-2 hover:bg-gray-700"
-                  >
+                  <NavLink to="/team/umar-shabbir" className="block  py-2 ">
                     Umar Shabbir
                   </NavLink>
                 </li>
@@ -182,7 +175,7 @@ export default function Navbar() {
               </ul>
             )}
           </li>
-          <li className="border-t border-gray-700">
+          <li>
             <NavLink
               to="/contact"
               className="block px-4 py-3 hover:bg-gray-700"
