@@ -5,7 +5,7 @@ export default function About_section() {
         <h2 className="text-gray-800 text-4xl uppercase font-Cinzel ">
           Our Expertise
         </h2>
-        <div className="px-6 py-12 bg-gray-200 w-full">
+        <div className="mt-4 px-6 py-12 bg-gray-200 w-full">
           <h3 className="font-Abril text-2xl text-bronze">Focus</h3>
           <p className="pt-3 text-gray-800 text-xl font-EBGaramond font-medium">
             Our daily focus is on taxation and we use that expertise to deliver
