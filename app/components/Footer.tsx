@@ -8,7 +8,7 @@ import {
 export default function Footer() {
   const currentYear = new Date().getFullYear();
   return (
-    <footer className="bg-charcoal text-gray-400 py-6">
+    <footer className="bg-charcoal text-gray-400 py-6 font-EBGaramond">
       <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
         {/* copyright */}
         <span className="text-sm">

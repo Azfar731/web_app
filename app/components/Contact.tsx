@@ -1,6 +1,6 @@
 export default function Contact_section() {
   return (
-    <div className=" relative py-12 px-12 h-102 sm:h-48 md:h-64 bg-[url('/images/landscape3.jpg')]  bg-cover bg-center text-white">
+    <div className=" relative py-12 px-12 h-102 sm:h-48 md:h-64 bg-[url('/images/landscape3.jpg')]  bg-cover bg-center text-white font-EBGaramond">
       <div className="absolute inset-0 bg-black/70"></div>
 
       <div className="relative z-10 h-full">
