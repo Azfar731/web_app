@@ -5,6 +5,11 @@ export default function Clients_section() {
     { src: "/assets/HBL-logo.png", alt: "HBL Logo" },
     { src: "/assets/Easypaisa-logo.png", alt: "Easy paisa logo" },
     { src: "/assets/meezan-bank-logo.png", alt: "Meezan bank logo" },
+    { src: "/assets/Easypaisa-logo.png", alt: "Easy paisa logo" },
+    { src: "/assets/HBL-logo.png", alt: "HBL Logo" },
+    { src: "/assets/meezan-bank-logo.png", alt: "Meezan bank logo" },
+    { src: "/assets/Easypaisa-logo.png", alt: "Easy paisa logo" },
+    { src: "/assets/HBL-logo.png", alt: "HBL Logo" },
   ];
 
   return (
@@ -15,7 +20,7 @@ export default function Clients_section() {
       <h2 className="text-gray-800 text-4xl uppercase font-Cinzel">
         Trusted By
       </h2>
-      <div className="grid grid-cols-2 gap-4 mt-8 px-4">
+      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4 md:gap-6 xl:gap-14 mt-8 px-4">
         {clients.map((client) => (
           <Brand_Logos src={client.src} alt={client.alt} />
         ))}
