@@ -16,8 +16,8 @@ export default function Brand_Logos({
       <img
         src={src}
         alt={alt}
-        className={`max-h-full max-w-full object-contain  transition duration-200
-        ${isColored ? "sm:max-lg:grayscale-0" : "sm:max-lg:grayscale"} `}
+        className={`max-h-full max-w-full object-contain lg:grayscale lg:hover:grayscale-0  transition duration-200
+        ${isColored ? "max-lg:grayscale-0" : "max-lg:grayscale"} `}
       />
     </div>
   );

@@ -10,7 +10,7 @@ export default function Clients_section() {
   return (
     <div
       id="Clients-section"
-      className="pt-12 bg-white flex flex-col justify-center items-center"
+      className="py-12 bg-white flex flex-col justify-center items-center"
     >
       <h2 className="text-gray-800 text-4xl uppercase font-Cinzel">
         Trusted By
