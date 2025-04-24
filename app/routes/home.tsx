@@ -1,5 +1,6 @@
 import Intro from "~/components/Intro";
 import type { Route } from "./+types/home";
+import About_section from "~/components/About";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -9,5 +10,10 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Home() {
-  return <Intro />;
+  return (
+    <div >
+      <Intro />
+      <About_section/>
+    </div>
+  );
 }

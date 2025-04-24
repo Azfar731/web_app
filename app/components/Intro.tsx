@@ -1,6 +1,6 @@
 export default function Intro() {
   return (
-    <div className="bg-introBg h-screen px-8 pt-32">
+    <div className="bg-introBg h-screen px-6 pt-32">
       <div>
         <div className="inline-flex flex-col items-start justify-center text-6xl text-darkBrown font-Bodoni font-bold">
           <h1>KHALIL</h1>
