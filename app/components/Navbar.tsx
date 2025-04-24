@@ -148,7 +148,7 @@ export default function Navbar() {
               )}
             </button>
             {teamOpen && (
-              <ul className="bg-navColor">
+              <ul className="bg-white flex flex-col items-center justify-center text-goldFont">
                 <li>
                   <NavLink to="/team/mehr-ali-hassan" className="block py-2 ">
                     Mehr Ali Hassan

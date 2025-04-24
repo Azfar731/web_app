@@ -8,8 +8,8 @@ import {
 export default function Footer() {
   const currentYear = new Date().getFullYear();
   return (
-    <footer className="bg-charcoal text-gray-400 py-6 font-EBGaramond">
-      <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
+    <footer className="bg-charcoal text-gray-400 py-6 px-6 font-EBGaramond">
+      <div className="w-full mx-auto flex flex-col md:flex-row items-center justify-between">
         {/* copyright */}
         <span className="text-sm">
           &copy; {currentYear} Khalil & Khalil Firm All Rights Reserved
@@ -49,7 +49,7 @@ export default function Footer() {
       </div>
 
       {/* developed by line */}
-      <div className="mt-6 text-center text-xs group">
+      <div className="mt-6 max-md:text-center  text-xs group">
         Developed by{" "}
         <a
           href="https://azfar731.github.io/"
