@@ -7,6 +7,8 @@ import {
   RiArrowDropDownLine,
   RiArrowDropUpLine,
 } from "react-icons/ri";
+import teamData from "~/data/team.json";
+import { toTitleCase } from "~/utility/functions";
 
 export default function Navbar() {
   //mobile-menu states
@@ -40,13 +42,15 @@ export default function Navbar() {
     }, 500);
   }, []);
 
+  const memberNames = teamData.map((member) => toTitleCase(member.name));
+  console.log(memberNames);
   return (
     <nav className="fixed w-full bg-navColor text-gray-50 z-50">
       {/* Top bar: Hamburger - Logo - placeholder */}
       <div className="flex items-center justify-between px-4 py-3 md:px-12">
         {/* Placeholder to keep logo centered */}
         <div className="w-6 h-6 md:hidden" />
-       
+
         {/* Logo centered */}
         <div className="flex-1 flex justify-center md:justify-start">
           <Logo className="w-32 h-auto text-blue-500" />
@@ -96,20 +100,17 @@ export default function Navbar() {
             `}
               >
                 <ul className="py-2 text-sm font-medium">
-                  <li className="px-4 py-2 hover:bg-gray-100">
-                    <NavLink to="/team/mehr-ali-hassan">
-                      Mehr Ali Hassan
-                    </NavLink>
-                  </li>
-                  <li className="px-4 py-2 hover:bg-gray-100">
-                    <NavLink to="/team/fahad-zaheer">Fahad Zaheer</NavLink>
-                  </li>
-                  <li className="px-4 py-2 hover:bg-gray-100">
-                    <NavLink to="/team/umar-shabbir">Umar Shabbir</NavLink>
-                  </li>
-                  <li className="px-4 py-2 hover:bg-gray-100">
-                    <NavLink to="/team/junaid-shabbir">Junaid Shabbir</NavLink>
-                  </li>
+                  {memberNames.map((member, index) => (
+                    <li key={index} className="px-4 py-2 hover:bg-gray-100">
+                      <NavLink
+                        to={`/members/${member
+                          .toLowerCase()
+                          .replace(/\s+/g, "-")}`}
+                      >
+                        {member}
+                      </NavLink>
+                    </li>
+                  ))}
                 </ul>
               </div>
             </div>
@@ -130,7 +131,7 @@ export default function Navbar() {
       >
         <ul className="flex flex-col items-center justify-center text-base font-medium ">
           <li>
-            <NavLink to="/" className="block py-3 hover:bg-gray-700">
+            <NavLink to="/" className="block py-3 ">
               About
             </NavLink>
           </li>
@@ -138,7 +139,7 @@ export default function Navbar() {
             <button
               type="button"
               onClick={handleTeamToggle}
-              className="w-full flex items-center justify-center py-3 hover:bg-gray-700 focus:outline-none text-center"
+              className="w-full flex items-center justify-center py-3  focus:outline-none text-center"
             >
               <div className="pl-4">Team</div>
               {teamOpen ? (
@@ -149,37 +150,22 @@ export default function Navbar() {
             </button>
             {teamOpen && (
               <ul className="bg-white flex flex-col items-center justify-center text-goldFont">
-                <li>
-                  <NavLink to="/team/mehr-ali-hassan" className="block py-2 ">
-                    Mehr Ali Hassan
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink to="/team/fahad-zaheer" className="block  py-2 ">
-                    Fahad Zaheer
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink to="/team/umar-shabbir" className="block  py-2 ">
-                    Umar Shabbir
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink
-                    to="/team/junaid-shabbir"
-                    className="block px-6 py-2 hover:bg-gray-700"
-                  >
-                    Junaid Shabbir
-                  </NavLink>
-                </li>
+                {memberNames.map((member, index) => (
+                  <li key={index} className="block py-2">
+                    <NavLink
+                      to={`/members/${member
+                        .toLowerCase()
+                        .replace(/\s+/g, "-")}`}
+                    >
+                      {member}
+                    </NavLink>
+                  </li>
+                ))}
               </ul>
             )}
           </li>
           <li>
-            <NavLink
-              to="/contact"
-              className="block px-4 py-3 hover:bg-gray-700"
-            >
+            <NavLink to="/contact" className="block px-4 py-3">
               Location
             </NavLink>
           </li>

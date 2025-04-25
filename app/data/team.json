@@ -1,0 +1,66 @@
+[
+    {
+        "img": "/public/team/junaid_shabbir.jpeg",
+        "title": "Senior Partner",
+        "name": "junaid shabbir",
+        "description": [""],
+        "info": [{ "heading": "", "points": ["", ""] }],
+        "email": "junaid.shabbir@khalil&khalil.com"
+    },
+    {
+        "img": "/public/team/ali_hassan.jpeg",
+        "title": "Senior Partner",
+        "name": "mehr ali hassan",
+        "description": [""],
+        "info": [{ "heading": "", "points": ["", ""] }],
+        "email": "mehr.ali.hassan@khalil&khalil.com"
+    },
+    {
+        "img": "/public/team/sohail_asghar_ranjha.jpeg",
+        "title": "Partner",
+        "name": "sohail asghar ranjha",
+        "description": [""],
+        "info": [{ "heading": "", "points": ["", ""] }],
+        "email": "sohail.asghar.ranjha@khalil&khalil.com"
+    },
+    {
+        "img": "/public/team/fahad_zaheer.jpeg",
+        "title": "Associate Partner",
+        "name": "fahad zaheer",
+        "description": [""],
+        "info": [{ "heading": "", "points": ["", ""] }],
+        "email": "fahad.zaheer@khalil&khalil.com"
+    },
+    {
+        "img": "/public/team/umar_shabbir.jpeg",
+        "title": "Associate Partner",
+        "name": "umar shabbir",
+        "description": [""],
+        "info": [{ "heading": "", "points": ["", ""] }],
+        "email": "umar.shabbir@khalil&khalil.com"
+    },
+    {
+        "img": "/public/team/hassan_khalil.jpeg",
+        "title": "Senior Associate",
+        "name": "hassan khalil",
+        "description": [""],
+        "info": [{ "heading": "", "points": ["", ""] }],
+        "email": "hassan.khalil@khalil&khalil.com"
+    },
+    {
+        "img": "/public/team/hussain_khalil.jpeg",
+        "title": "Associate",
+        "name": "hussain khalil",
+        "description": [""],
+        "info": [{ "heading": "", "points": ["", ""] }],
+        "email": "hussain.khalil@khalil&khalil.com"
+    },
+    {
+        "img": "/public/team/umair_ali.JPG",
+        "title": "Administrative Assistant",
+        "name": "umair ali",
+        "description": [""],
+        "info": [{ "heading": "", "points": ["", ""] }],
+        "email": "umair.ali@khalil&khalil.com"
+    }
+]
