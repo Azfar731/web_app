@@ -43,7 +43,7 @@ export default function Navbar() {
   }, []);
 
   const memberNames = teamData.map((member) => toTitleCase(member.name));
-  
+
   return (
     <nav className="fixed w-full bg-navColor text-gray-50 z-50">
       {/* Top bar: Hamburger - Logo - placeholder */}
@@ -130,7 +130,11 @@ export default function Navbar() {
       >
         <ul className="flex flex-col items-center justify-center text-base font-medium ">
           <li>
-            <NavLink to="/" className="block py-3 ">
+            <NavLink
+              to="/#about_section"
+              onClick={() => setMobileOpen(false)}
+              className="block py-3 "
+            >
               About
             </NavLink>
           </li>
@@ -155,6 +159,7 @@ export default function Navbar() {
                       to={`/members/${member
                         .toLowerCase()
                         .replace(/\s+/g, "-")}`}
+                      onClick={() => setMobileOpen(false)}
                     >
                       {member}
                     </NavLink>
@@ -164,7 +169,11 @@ export default function Navbar() {
             )}
           </li>
           <li>
-            <NavLink to="/contact" className="block px-4 py-3">
+            <NavLink
+              to="#contact_section"
+              onClick={() => setMobileOpen(false)}
+              className="block px-4 py-3"
+            >
               Location
             </NavLink>
           </li>
