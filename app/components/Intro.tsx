@@ -7,7 +7,7 @@ export default function Intro() {
           <h1 className="text-goldFont w-full text-center">&</h1>
           <h1>KHALIL</h1>
         </div>
-        <p className="pt-4 text-lightBrown lg:w-92 lg:text-xl">
+        <p className="pt-4 text-lightBrown md:w-110 lg:w-92 lg:text-xl">
           Future-focused and dedicated to excellence, Akin is an elite law firm
           that helps clients anticipate what is next and navigate a path to
           success.
