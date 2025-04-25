@@ -1,6 +1,6 @@
 [
     {
-        "img": "/public/team/junaid_shabbir.jpeg",
+        "img": "/team/junaid_shabbir.jpeg",
         "title": "Senior Partner",
         "name": "junaid shabbir",
         "description": [""],
@@ -11,7 +11,7 @@
         }
     },
     {
-        "img": "/public/team/ali_hassan.jpeg",
+        "img": "/team/pic3.jpeg",
         "title": "Senior Partner",
         "name": "mehr ali hassan",
         "description": [
@@ -33,7 +33,7 @@
         }
     },
     {
-        "img": "/public/team/sohail_asghar_ranjha.jpeg",
+        "img": "/team/sohail_asghar_ranjha.jpeg",
         "title": "Partner",
         "name": "sohail asghar ranjha",
         "description": [""],
@@ -43,7 +43,7 @@
         }
     },
     {
-        "img": "/public/team/fahad_zaheer.jpeg",
+        "img": "/team/fahad_zaheer.jpeg",
         "title": "Associate Partner",
         "name": "fahad zaheer",
         "description": [""],
@@ -53,7 +53,7 @@
         }
     },
     {
-        "img": "/public/team/umar_shabbir.jpeg",
+        "img": "/team/umar_shabbir.jpeg",
         "title": "Associate Partner",
         "name": "umar shabbir",
         "description": [""],
@@ -63,7 +63,7 @@
         }
     },
     {
-        "img": "/public/team/hassan_khalil.jpeg",
+        "img": "/team/hassan_khalil.jpeg",
         "title": "Senior Associate",
         "name": "hassan khalil",
         "description": [""],
@@ -73,7 +73,7 @@
         }
     },
     {
-        "img": "/public/team/hussain_khalil.jpeg",
+        "img": "/team/hussain_khalil.jpeg",
         "title": "Associate",
         "name": "hussain khalil",
         "description": [""],
@@ -83,7 +83,7 @@
         }
     },
     {
-        "img": "/public/team/umair_ali.JPG",
+        "img": "/team/umair_ali.JPG",
         "title": "Administrative Assistant",
         "name": "umair ali",
         "description": [""],
