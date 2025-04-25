@@ -19,7 +19,9 @@
   --color-charcoal: #171717;
 }
 
-html,
+html{
+  scroll-behavior: smooth;
+}
 body {
   @apply bg-white dark:bg-gray-950;
 

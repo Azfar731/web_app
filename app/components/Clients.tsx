@@ -21,8 +21,8 @@ export default function Clients_section() {
         Trusted By
       </h2>
       <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4 md:gap-6 xl:gap-14 mt-8 px-4">
-        {clients.map((client) => (
-          <Brand_Logos src={client.src} alt={client.alt} />
+        {clients.map((client, index) => (
+          <Brand_Logos key={index} src={client.src} alt={client.alt} />
         ))}
       </div>
     </div>

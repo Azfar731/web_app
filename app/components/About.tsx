@@ -1,11 +1,11 @@
 export default function About_section() {
   return (
     <>
-      <div className="pt-12 bg-white flex flex-col justify-center items-center">
+      <div id="about_section" className="pt-12 bg-white flex flex-col justify-center items-center scroll-mt-20">
         <h2 className="text-gray-800 text-4xl uppercase font-Cinzel ">
           Our Expertise
         </h2>
-        <div className="mt-4 px-6 py-12 lg:max-xl:py-8 xl:pl-24 bg-gray-200 w-full lg:flex lg:items-center lg:justify-start lg:gap-8">
+        <div  className="mt-4 px-6 py-12 lg:max-xl:py-8 xl:pl-24 bg-gray-200 w-full lg:flex lg:items-center lg:justify-start lg:gap-8">
           <div className="relative w-128 h-52 max-lg:hidden">
             <img
               src="images/focus.jpg"

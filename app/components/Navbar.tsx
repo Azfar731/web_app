@@ -1,5 +1,5 @@
 import React, { useState, useRef, useCallback } from "react";
-import { NavLink } from "react-router";
+import { Link, NavLink } from "react-router";
 import Logo from "/app/assets/logo.svg?react";
 import {
   RiMenu3Line,
@@ -53,7 +53,9 @@ export default function Navbar() {
 
         {/* Logo centered */}
         <div className="flex-1 flex justify-center md:justify-start">
-          <Logo className="w-32 h-auto text-blue-500" />
+          <Link to="/">
+            <Logo className="w-32 h-auto text-blue-500" />
+          </Link>
         </div>
 
         {/* Hamburger icon on mobile */}
@@ -71,7 +73,7 @@ export default function Navbar() {
         {/* Desktop links */}
         <ul className="hidden md:flex space-x-8 text-lg font-medium">
           <li>
-            <NavLink to="/" className="hover:text-gray-300">
+            <NavLink to="#about_section" className="hover:text-gray-300">
               About
             </NavLink>
           </li>
@@ -82,12 +84,9 @@ export default function Navbar() {
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
             >
-              <NavLink
-                to="/team"
-                className="flex items-center hover:text-gray-300"
-              >
+              <div className="flex items-center hover:text-gray-300">
                 Team <RiArrowDropDownLine className="ml-1 w-5 h-5" />
-              </NavLink>
+              </div>
               <div
                 className={`
                 absolute top-full left-0 mt-2 w-40 bg-white text-black rounded shadow-lg
@@ -116,7 +115,7 @@ export default function Navbar() {
             </div>
           </li>
           <li>
-            <NavLink to="/contact" className="hover:text-gray-300">
+            <NavLink to="#contact_section" className="hover:text-gray-300">
               Location
             </NavLink>
           </li>
