@@ -43,7 +43,7 @@ export default function Navbar() {
   }, []);
 
   const memberNames = teamData.map((member) => toTitleCase(member.name));
-  console.log(memberNames);
+  
   return (
     <nav className="fixed w-full bg-navColor text-gray-50 z-50">
       {/* Top bar: Hamburger - Logo - placeholder */}
@@ -73,7 +73,7 @@ export default function Navbar() {
         {/* Desktop links */}
         <ul className="hidden md:flex space-x-8 text-lg font-medium">
           <li>
-            <NavLink to="#about_section" className="hover:text-gray-300">
+            <NavLink to="/#about_section" className="hover:text-gray-300">
               About
             </NavLink>
           </li>

@@ -22,10 +22,10 @@ export async function loader({ params }: LoaderFunctionArgs) {
 
 export function meta({ data }: Route.MetaArgs) {
   const { memberData } = data;
-  const name = toTitleCase(memberData.name)
+  const name = toTitleCase(memberData.name);
   const pageTitle = `${name} – ${memberData.title} | Khalil & Khalil`;
   const description = `${name}, ${memberData.title} at Khalil & Khalil in Phalia, Pakistan. ${memberData.description[0]}`;
-  
+
   const keywords = [
     name,
     memberData.title,
@@ -64,7 +64,7 @@ export function meta({ data }: Route.MetaArgs) {
 
 export default function MemberPage({ loaderData }: Route.ComponentProps) {
   const { memberData } = loaderData;
-  console.log("Member Data", memberData);
+
   return (
     <div>
       <div className="px-6 md:px-12 lg:px-32 xl:px-64 py-20 pt-32 bg-white min-h-screen">
