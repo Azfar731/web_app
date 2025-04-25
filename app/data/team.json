@@ -5,15 +5,32 @@
         "name": "junaid shabbir",
         "description": [""],
         "info": [{ "heading": "", "points": ["", ""] }],
-        "email": "junaid.shabbir@khalil&khalil.com"
+        "contact": {
+            "phone": "+92 333 1234567",
+            "email": "junaid.shabbir@khalil&khalil.com"
+        }
     },
     {
         "img": "/public/team/ali_hassan.jpeg",
         "title": "Senior Partner",
         "name": "mehr ali hassan",
-        "description": [""],
-        "info": [{ "heading": "", "points": ["", ""] }],
-        "email": "mehr.ali.hassan@khalil&khalil.com"
+        "description": [
+            "Mehr Ali Hassan is an associate at Asbury Law Firm, Tax Counsel. Chris received his J.D. from Georgia State University in 2021, graduating with honors. After law school, Chris spent a year clerking for Superior Court Judge Howard Kaufold, Jr. of the Oconee Judicial Circuit. Chris is currently pursuing an LL.M. in Taxation from the University of Florida.",
+            "hris Bishop is an associate at Asbury Law Firm, Tax Counsel. Chris received his J.D. from Georgia State University in 2021, graduating with honors. After law school, Chris spent a year clerking for Superior Court Judge Howard Kaufold, Jr. of the Oconee Judicial Circuit. Chris is currently pursuing an LL.M. in Taxation from the University of Florida."
+        ],
+        "info": [
+            {
+                "heading": "Associations",
+                "points": ["ABA tax section", "Georgia Bar Tax Section"]
+            },
+            {
+                "heading": "Court Admissions",
+                "points": ["ABA tax section", "Georgia Bar Tax Section"]
+            }
+        ],
+        "contact": {
+            "email": "mehr.ali.hassan@khalil&khalil.com"
+        }
     },
     {
         "img": "/public/team/sohail_asghar_ranjha.jpeg",
@@ -21,7 +38,9 @@
         "name": "sohail asghar ranjha",
         "description": [""],
         "info": [{ "heading": "", "points": ["", ""] }],
-        "email": "sohail.asghar.ranjha@khalil&khalil.com"
+        "contact": {
+            "email": "sohail.asghar.ranjha@khalil&khalil.com"
+        }
     },
     {
         "img": "/public/team/fahad_zaheer.jpeg",
@@ -29,7 +48,9 @@
         "name": "fahad zaheer",
         "description": [""],
         "info": [{ "heading": "", "points": ["", ""] }],
-        "email": "fahad.zaheer@khalil&khalil.com"
+        "contact": {
+            "email": "fahad.zaheer@khalil&khalil.com"
+        }
     },
     {
         "img": "/public/team/umar_shabbir.jpeg",
@@ -37,7 +58,9 @@
         "name": "umar shabbir",
         "description": [""],
         "info": [{ "heading": "", "points": ["", ""] }],
-        "email": "umar.shabbir@khalil&khalil.com"
+        "contact": {
+            "email": "umar.shabbir@khalil&khalil.com"
+        }
     },
     {
         "img": "/public/team/hassan_khalil.jpeg",
@@ -45,7 +68,9 @@
         "name": "hassan khalil",
         "description": [""],
         "info": [{ "heading": "", "points": ["", ""] }],
-        "email": "hassan.khalil@khalil&khalil.com"
+        "contact": {
+            "email": "hassan.khalil@khalil&khalil.com"
+        }
     },
     {
         "img": "/public/team/hussain_khalil.jpeg",
@@ -53,7 +78,9 @@
         "name": "hussain khalil",
         "description": [""],
         "info": [{ "heading": "", "points": ["", ""] }],
-        "email": "hussain.khalil@khalil&khalil.com"
+        "contact": {
+            "email": "hussain.khalil@khalil&khalil.com"
+        }
     },
     {
         "img": "/public/team/umair_ali.JPG",
@@ -61,6 +88,8 @@
         "name": "umair ali",
         "description": [""],
         "info": [{ "heading": "", "points": ["", ""] }],
-        "email": "umair.ali@khalil&khalil.com"
+        "contact": {
+            "email": "umair.ali@khalil&khalil.com"
+        }
     }
 ]
