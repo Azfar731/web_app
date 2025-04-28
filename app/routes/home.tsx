@@ -26,6 +26,11 @@ export function meta({}: Route.MetaArgs) {
       content: "Khalil & Khalil – Leading Law Firm in Phalia, Pakistan",
     },
     {
+      property: "og:type",
+      content: "website",
+    },
+
+    {
       property: "og:description",
       content:
         "Providing comprehensive legal representation and counsel in Phalia, Pakistan across corporate, civil, and family law matters.",
