@@ -30,7 +30,7 @@ export function meta({}: Route.MetaArgs) {
       content:
         "Providing comprehensive legal representation and counsel in Phalia, Pakistan across corporate, civil, and family law matters.",
     },
-    { property: "og:image", content: "/assets/og_logo.webp" },
+    { property: "og:image", content: "/assets/og_logo_jpg.jpg" },
     { property: "og:locale", content: "en_PK" },
 
     // Twitter Cards
