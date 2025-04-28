@@ -4,7 +4,7 @@ export default function Contact_section() {
       {/* <div className="absolute inset-0 bg-black/70"></div> */}
 
       <div className="relative z-10 h-full">
-        <div className="text-center text-4xl  uppercase font-Bodoni font-bold">
+        <div className="text-center text-4xl  uppercase font-Times-New-Roman font-bold">
           <h1>
             Khalil <br /> & <br /> Khalil
           </h1>

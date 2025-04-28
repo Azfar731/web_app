@@ -4,7 +4,7 @@
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
-  --font-Bodoni: "Bodoni Moda", "serif";
+  --font-Times-New-Roman: "Times New Roman", "serif";
   --font-Abril: "Abril Fatface", "serif";
   --font-EBGaramond: "EB Garamond", "serif";
   --font-Cinzel: "Cinzel", "serif";
@@ -14,12 +14,12 @@
   --color-goldFont: #feba17;
   --color-lightBrown: #74512d;
   --color-darkBrown: #4e1f00;
-  --color-introBg: #F8F4E1;
+  --color-introBg: #f8f4e1;
   --color-bronze: #cfa765;
   --color-charcoal: #171717;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 body {

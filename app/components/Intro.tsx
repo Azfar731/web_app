@@ -2,7 +2,7 @@ export default function Intro() {
   return (
     <div className="bg-introBg h-screen px-6 pt-32 lg:flex lg:items-center lg:justify-end lg:pr-32">
       <div>
-        <div className="inline-flex flex-col items-start justify-center text-6xl text-darkBrown font-Bodoni font-bold">
+        <div className="inline-flex flex-col items-start justify-center text-6xl text-darkBrown font-Times-New-Roman font-bold">
           <h1>KHALIL</h1>
           <h1 className="text-goldFont w-full text-center">&</h1>
           <h1>KHALIL</h1>
