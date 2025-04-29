@@ -74,7 +74,7 @@ export default function MemberPage({ loaderData }: Route.ComponentProps) {
             className="max-h-screen md:h-100"
             alt={`${memberData.name}'s profile picture`}
           />
-          <div className="flex flex-col gap-3 text-black">
+          <div className="w-full flex flex-col gap-3 text-black">
             <h2 className="text-gray-400 font-Cinzel">{memberData.title}</h2>
             <h1 className="text-3xl  text-bronze font-Cinzel">
               {toTitleCase(memberData.name)}
