@@ -59,8 +59,7 @@ export default function Home() {
       <Intro />
       <About_section />
       <Clients_section />
-      <Contact_section />
-      <Footer />
+      
     </div>
   );
 }
