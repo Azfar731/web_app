@@ -139,18 +139,26 @@ export default function Navbar() {
             </NavLink>
           </li>
           <li>
-            <button
-              type="button"
-              onClick={handleTeamToggle}
-              className="w-full flex items-center justify-center py-3  focus:outline-none text-center"
-            >
-              <div className="pl-4">Team</div>
-              {teamOpen ? (
-                <RiArrowDropUpLine className="w-8 h-8" />
-              ) : (
-                <RiArrowDropDownLine className="w-8 h-8" />
-              )}
-            </button>
+            <div className="w-full flex items-center justify-center py-3">
+              <Link
+                to={`members`}
+                onClick={() => setMobileOpen(false)}
+                className="pl-4"
+              >
+                Team
+              </Link>
+              <button
+                type="button"
+                onClick={handleTeamToggle}
+                className="  focus:outline-none text-center"
+              >
+                {teamOpen ? (
+                  <RiArrowDropUpLine className="w-8 h-8" />
+                ) : (
+                  <RiArrowDropDownLine className="w-8 h-8" />
+                )}
+              </button>
+            </div>
             {teamOpen && (
               <ul className="bg-white flex flex-col items-center justify-center text-goldFont">
                 {memberNames.map((member, index) => (
