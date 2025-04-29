@@ -10,7 +10,7 @@ export default function MemberCard({
   title: string;
 }) {
   return (
-    <div className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+    <div className="bg-white rounded-lg overflow-hidden shadow-xl hover:shadow-2xl transition-shadow duration-300">
       <div className="p-6 flex flex-col items-center">
         <img
           src={imgSrc}
