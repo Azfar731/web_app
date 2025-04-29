@@ -1,5 +1,5 @@
 import type { LoaderFunctionArgs } from "react-router";
-import type { Route } from "./+types/members";
+import type { Route } from "./+types/members_profile";
 import membersData from "~/data/team.json";
 import { toTitleCase } from "~/utility/functions";
 import Contact_section from "~/components/Contact";
