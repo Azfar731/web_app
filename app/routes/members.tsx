@@ -1,21 +1,19 @@
+import { Link } from "react-router";
 import MemberCard from "~/components/MemberCard";
 import membersData from "~/data/team.json";
 
 export default function MembersPage() {
   const memberCards = membersData.map((member) => (
-    <MemberCard
-      key={member.name}
-      imgSrc={member.img}
-      name={member.name}
-      title={member.title}
-    />
+    <Link to={`/members/${member.name.replace(/ /g, "-")}`} key={member.name}>
+      <MemberCard imgSrc={member.img} name={member.name} title={member.title} />
+    </Link>
   ));
 
   return (
     <div>
       <div className="md:flex lg:h-150">
         <div className="relative px-6 pt-42 pb-20 lg:w-2/3 md:flex md:justify-center md:items-center    text-white md:bg-[url('/images/team-page.jpg')] bg-[url('/images/team-page2.jpg')]  bg-cover bg-center lg:bg-none lg:bg-introBg    ">
-          <div className="absolute inset-0 bg-black/90 md:bg-black/70"></div>
+          <div className="absolute inset-0 bg-black/90 md:bg-black/70 lg:hidden"></div>
           <div className="relative lg:pb-15 lg:pl-20  z-10">
             <h1 className=" text-2xl md:text-4xl font-Times-New-Roman font-semibold lg:text-darkBrown ">
               Members
