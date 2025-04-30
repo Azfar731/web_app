@@ -8,7 +8,7 @@ export default function Intro() {
           <h1>KHALIL</h1>
         </div>
         <p className="pt-4 text-lightBrown md:w-110 lg:w-92 lg:text-xl">
-          Future-focused and dedicated to excellence, Akin is an elite law firm
+          Future-focused and dedicated to excellence, Khalil & Khalil is an elite law firm
           that helps clients anticipate what is next and navigate a path to
           success.
         </p>

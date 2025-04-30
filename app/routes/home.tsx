@@ -2,8 +2,7 @@ import Intro from "~/components/Intro";
 import type { Route } from "./+types/home";
 import About_section from "~/components/About";
 import Clients_section from "~/components/Clients";
-import Contact_section from "~/components/Contact";
-import Footer from "~/components/Footer";
+
 
 export function meta({}: Route.MetaArgs) {
   return [
