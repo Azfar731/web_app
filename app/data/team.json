@@ -1,95 +1,127 @@
 [
-    {
-        "img": "/team/junaid_shabbir.jpeg",
-        "title": "Senior Partner",
-        "name": "junaid shabbir",
-        "description": [""],
-        "info": [{ "heading": "", "points": ["", ""] }],
-        "contact": {
-            "phone": "+92 333 1234567",
-            "email": "junaid.shabbir@khalil&khalil.com"
-        }
-    },
-    {
-        "img": "/team/ali_hassan.jpeg",
-        "title": "Senior Partner",
-        "name": "mehr ali hassan",
-        "description": [
-            "Mehr Ali Hassan is an associate at Asbury Law Firm, Tax Counsel. Chris received his J.D. from Georgia State University in 2021, graduating with honors. After law school, Chris spent a year clerking for Superior Court Judge Howard Kaufold, Jr. of the Oconee Judicial Circuit. Chris is currently pursuing an LL.M. in Taxation from the University of Florida.",
-            "hris Bishop is an associate at Asbury Law Firm, Tax Counsel. Chris received his J.D. from Georgia State University in 2021, graduating with honors. After law school, Chris spent a year clerking for Superior Court Judge Howard Kaufold, Jr. of the Oconee Judicial Circuit. Chris is currently pursuing an LL.M. in Taxation from the University of Florida."
-        ],
-        "info": [
-            {
-                "heading": "Associations",
-                "points": ["ABA tax section", "Georgia Bar Tax Section"]
-            },
-            {
-                "heading": "Court Admissions",
-                "points": ["ABA tax section", "Georgia Bar Tax Section"]
-            }
-        ],
-        "contact": {
-            "email": "mehr.ali.hassan@khalil&khalil.com"
-        }
-    },
-    {
-        "img": "/team/sohail_asghar_ranjha.jpeg",
-        "title": "Partner",
-        "name": "sohail asghar ranjha",
-        "description": [""],
-        "info": [{ "heading": "", "points": ["", ""] }],
-        "contact": {
-            "email": "sohail.asghar.ranjha@khalil&khalil.com"
-        }
-    },
-    {
-        "img": "/team/fahad_zaheer.jpeg",
-        "title": "Associate Partner",
-        "name": "fahad zaheer",
-        "description": [""],
-        "info": [{ "heading": "", "points": ["", ""] }],
-        "contact": {
-            "email": "fahad.zaheer@khalil&khalil.com"
-        }
-    },
-    {
-        "img": "/team/umar_shabbir.jpeg",
-        "title": "Associate Partner",
-        "name": "umar shabbir",
-        "description": [""],
-        "info": [{ "heading": "", "points": ["", ""] }],
-        "contact": {
-            "email": "umar.shabbir@khalil&khalil.com"
-        }
-    },
-    {
-        "img": "/team/hassan_khalil.jpeg",
-        "title": "Senior Associate",
-        "name": "hassan khalil",
-        "description": [""],
-        "info": [{ "heading": "", "points": ["", ""] }],
-        "contact": {
-            "email": "hassan.khalil@khalil&khalil.com"
-        }
-    },
-    {
-        "img": "/team/hussain_khalil.jpeg",
-        "title": "Associate",
-        "name": "hussain khalil",
-        "description": [""],
-        "info": [{ "heading": "", "points": ["", ""] }],
-        "contact": {
-            "email": "hussain.khalil@khalil&khalil.com"
-        }
-    },
-    {
-        "img": "/team/umair_ali.JPG",
-        "title": "Administrative Assistant",
-        "name": "umair ali",
-        "description": [""],
-        "info": [{ "heading": "", "points": ["", ""] }],
-        "contact": {
-            "email": "umair.ali@khalil&khalil.com"
-        }
+  {
+    "img": "/team/junaid_shabbir.jpeg",
+    "title": "Senior Partner",
+    "name": "junaid shabbir",
+    "description": [
+      "Junaid Shabbir is a seasoned criminal lawyer at Khalil & Khalil, bringing extensive experience from Pakistan's legal landscape. He earned his LLB (Hons) from the University of Sargodha and furthered his legal education with an LLM from Hungary, equipping him with a robust academic foundation and a global perspective on legal matters.​",
+      "Specialising in criminal law, Junaid has represented clients in a wide array of cases, demonstrating a deep understanding of the complexities involved. His commitment to justice and client advocacy has earned him a reputation for diligence and integrity within the legal community.",
+      "Junaid's approach to criminal defence is characterised by meticulous attention to detail, a deep understanding of legal nuances, and a steadfast commitment to his clients' rights. He has successfully represented individuals in a wide range of criminal cases, demonstrating resilience and a strategic mindset in navigating complex legal challenges. His dedication to achieving favourable outcomes for his clients underscores his reputation as a formidable advocate in the field of criminal law.​",
+      "At Khalil & Khalil, Junaid's expertise and dedication to client service are invaluable assets, contributing to our firm's commitment to excellence in legal practice."
+    ],
+    "info": [{ "heading": "", "points": ["", ""] }],
+    "contact": {
+      "phone": "+92 333 1234567",
+      "email": "junaid.shabbir@khalil&khalil.com"
     }
+  },
+  {
+    "img": "/team/ali_hassan.jpeg",
+    "title": "Senior Partner",
+    "name": "mehr ali hassan",
+    "description": [
+      "Mehr Ali Hassan is a dedicated civil litigation lawyer at Khalil & Khalil, specialising in a broad spectrum of civil law matters. He holds both an LLB (Hons) and an LLM from the University of Lahore, providing him with a solid academic foundation and a comprehensive understanding of legal principles.​",
+      "With a strong academic background and a commitment to delivering effective legal solutions, Mehr Ali Hassan plays a pivotal role in the firm's civil law practice.​",
+      "Mehr Ali Hassan's approach to civil litigation is characterised by meticulous attention to detail, strategic thinking, and a client-centred focus. He is adept at navigating the intricacies of civil law, ensuring that clients receive comprehensive and effective legal representation.",
+      "At Khalil & Khalil, Mehr Ali Hassan's expertise and dedication to client service are invaluable assets, contributing to the firm's commitment to excellence in legal practice."
+    ],
+    "info": [
+      {
+        "heading": "Associations",
+        "points": ["ABA tax section", "Georgia Bar Tax Section"]
+      },
+      {
+        "heading": "Court Admissions",
+        "points": ["ABA tax section", "Georgia Bar Tax Section"]
+      }
+    ],
+    "contact": {
+      "email": "mehr.ali.hassan@khalil&khalil.com"
+    }
+  },
+  {
+    "img": "/team/abdul_basit_durrani.jpeg",
+    "title": "Partner",
+    "name": "abdul basit durrani",
+    "description": [
+      "Abdul Basit Durani is a skilled corporate lawyer at Khalil & Khalil Law Firm, known for his strategic legal counsel and deep understanding of corporate law. He advises businesses of all sizes on a wide range of matters, including corporate governance, regulatory compliance, contract negotiation, mergers and acquisitions, and dispute resolution.",
+      "With a sharp eye for detail and a proactive approach to legal risk management, Abdul Basit helps clients navigate complex legal landscapes while supporting their growth and long-term objectives. His professionalism, insight, and commitment make him a trusted advisor to corporate clients across various industries."
+    ],
+    "info": [{ "heading": "", "points": ["", ""] }],
+    "contact": {
+      "email": "sohail.asghar.ranjha@khalil&khalil.com"
+    }
+  },
+  {
+    "img": "/team/sohail_asghar_ranjha.jpeg",
+    "title": "Partner",
+    "name": "sohail asghar ranjha",
+    "description": [
+      "Sohail Asghar Ranjha is a corporate lawyer at Khalil & Khalil Law Firm, bringing expertise in corporate advisory, contract law, and business compliance. He provides strategic legal solutions to companies, helping them navigate regulatory frameworks, manage corporate transactions, and ensure legal integrity in their operations. Sohail’s analytical mindset and dedication to precision make him a valuable asset to corporate clients seeking reliable legal guidance. His commitment to understanding each client’s business goals allows him to deliver practical, business-oriented legal advice tailored to today’s dynamic corporate environment."
+    ],
+    "info": [{ "heading": "", "points": ["", ""] }],
+    "contact": {
+      "email": "sohail.asghar.ranjha@khalil&khalil.com"
+    }
+  },
+  {
+    "img": "/team/fahad_zaheer.jpeg",
+    "title": "Associate Partner",
+    "name": "fahad zaheer",
+    "description": [
+      "Fahad Zaheer is a seasoned lawyer specializing in both criminal and civil law at Khalil & Khalil Law Firm. With extensive experience in defending clients in criminal cases and representing them in civil matters, Fahad provides a comprehensive approach to legal challenges. His sharp legal acumen, combined with a deep understanding of the law, allows him to deliver strategic solutions tailored to each case. Known for his strong advocacy skills and unwavering commitment to justice, Fahad ensures that his clients receive the best possible representation in both criminal and civil legal matters."
+    ],
+    "info": [{ "heading": "", "points": ["", ""] }],
+    "contact": {
+      "email": "fahad.zaheer@khalil&khalil.com"
+    }
+  },
+  {
+    "img": "/team/umar_shabbir.jpeg",
+    "title": "Associate Partner",
+    "name": "umar shabbir",
+    "description": [
+      "Umar Shabbir is a dedicated and experienced civil lawyer at Khalil & Khalil Law Firm. With a strong background in handling complex civil cases, Umar brings a wealth of expertise and commitment to the team. His in-depth understanding of civil law and his meticulous approach to case management make him an invaluable asset to our firm and our clients. Umar is passionate about delivering exceptional legal services and advocating for the rights of his clients with integrity and professionalism.​"
+    ],
+    "info": [{ "heading": "", "points": ["", ""] }],
+    "contact": {
+      "email": "umar.shabbir@khalil&khalil.com"
+    }
+  },
+  {
+    "img": "/team/hassan_khalil.jpeg",
+    "title": "Senior Associate",
+    "name": "hassan khalil",
+    "description": [
+      "Hassan Khalil serves as a Legal and Community Service Associate at Khalil & Khalil Law Firm. With a passion for both legal excellence and social impact, Hassan plays a vital role in supporting the firm’s legal operations while also leading initiatives that strengthen community engagement. His dedication to public service, combined with a solid foundation in legal principles, allows him to bridge the gap between legal advocacy and community needs. Hassan is committed to promoting access to justice and making a positive difference both inside and outside the courtroom."
+    ],
+    "info": [{ "heading": "", "points": ["", ""] }],
+    "contact": {
+      "email": "hassan.khalil@khalil&khalil.com"
+    }
+  },
+  {
+    "img": "/team/hussain_khalil.jpeg",
+    "title": "Associate",
+    "name": "hussain khalil",
+    "description": [
+      "Hussain Khalil is an Associate at Khalil & Khalil Law Firm, contributing to the firm’s legal excellence with his sharp analytical skills and dedication to client service. He is involved in a wide range of legal matters, including civil litigation, corporate advisory, and legal research. Hussain supports senior attorneys in case preparation, client consultations, and drafting legal documents, ensuring thorough and precise legal work. Known for his strong work ethic and growing expertise, he is committed to upholding the firm’s standards of professionalism and delivering effective legal solutions to clients."
+    ],
+    "info": [{ "heading": "", "points": ["", ""] }],
+    "contact": {
+      "email": "hussain.khalil@khalil&khalil.com"
+    }
+  },
+  {
+    "img": "/team/umair_ali.JPG",
+    "title": "Agriculture Consultant",
+    "name": "umair ali",
+    "description": [
+      "Umair Ali is an experienced Agriculture Consultant at Khalil & Khalil Law Firm, holding a Master’s degree in Agricultural Science with distinction. He specializes in agricultural laws, land use regulations, environmental compliance, agri-business policy, and regulatory interpretation. Umair brings a unique blend of technical agricultural knowledge and legal insight, offering tailored solutions that bridge the gap between farming practices and legal requirements. His ability to translate complex agricultural policies into actionable strategies makes him a valuable asset to clients navigating the evolving landscape of agri-business and rural land management."
+    ],
+    "info": [{ "heading": "", "points": ["", ""] }],
+    "contact": {
+      "email": "umair.ali@khalil&khalil.com"
+    }
+  }
 ]
