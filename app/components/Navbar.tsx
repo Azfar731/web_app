@@ -85,7 +85,7 @@ export default function Navbar() {
               onMouseLeave={handleMouseLeave}
             >
               <div className="flex items-center hover:text-gray-300">
-                <Link to={"members"}>Team</Link>{" "}
+                <Link to={"members"}>Team</Link>
                 <RiArrowDropDownLine className="ml-1 w-5 h-5" />
               </div>
               <div
