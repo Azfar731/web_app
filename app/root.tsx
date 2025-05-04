@@ -10,7 +10,6 @@ import {
 import type { Route } from "./+types/root";
 import "./app.css";
 import Navbar from "./components/Navbar";
-import Contact_section from "./components/Contact";
 import Footer from "./components/Footer";
 
 export const links: Route.LinksFunction = () => [
@@ -34,7 +33,7 @@ export const links: Route.LinksFunction = () => [
   },
   {
     rel: "icon",
-    href: "/favicon.ico",
+    href: "/fav.ico",
     type: "image/x-icon",
   },
 ];

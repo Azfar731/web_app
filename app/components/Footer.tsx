@@ -1,8 +1,6 @@
 import {
   FaFacebookF,
-  FaTwitter,
-  FaGooglePlusG,
-  FaPinterestP,
+  FaInstagram,
 } from "react-icons/fa";
 import Contact_section from "./Contact";
 
@@ -20,33 +18,25 @@ export default function Footer() {
           {/* social icons */}
           <div className="flex space-x-4 mt-4 md:mt-0">
             <a
-              href="#"
+              href="https://www.facebook.com/share/1AXsq7zkwz/?mibextid=wwXIfr"
               aria-label="Facebook"
               className="hover:text-gray-200 transition-colors"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <FaFacebookF size={16} />
             </a>
             <a
-              href="#"
-              aria-label="Twitter"
+              href="https://www.instagram.com/khalilandkhalil?igsh=ZGt0OXRkZjk2cGh5"
+              aria-label="Instagram"
               className="hover:text-gray-200 transition-colors"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <FaTwitter size={16} />
+              <FaInstagram size={16} />
             </a>
-            <a
-              href="#"
-              aria-label="Google+"
-              className="hover:text-gray-200 transition-colors"
-            >
-              <FaGooglePlusG size={16} />
-            </a>
-            <a
-              href="#"
-              aria-label="Pinterest"
-              className="hover:text-gray-200 transition-colors"
-            >
-              <FaPinterestP size={16} />
-            </a>
+
+            
           </div>
         </div>
         {/* developed by line */}
