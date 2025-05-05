@@ -2,6 +2,8 @@ import { Link } from "react-router";
 import MemberCard from "~/components/MemberCard";
 import membersData from "~/data/team.json";
 import { RiTeamFill } from "react-icons/ri";
+
+
 export default function MembersPage() {
   const memberCards = membersData.map((member) => (
     <Link to={`/members/${member.name.replace(/ /g, "-")}`} key={member.name}>

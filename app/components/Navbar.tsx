@@ -73,8 +73,8 @@ export default function Navbar() {
         {/* Desktop links */}
         <ul className="hidden md:flex space-x-8 text-lg font-medium">
           <li>
-            <NavLink to="/#about_section" className="hover:text-gray-300">
-              About
+            <NavLink to="/aboutus" className="hover:text-gray-300">
+              About Us
             </NavLink>
           </li>
           {/* Team dropdown on desktop */}
@@ -132,11 +132,11 @@ export default function Navbar() {
         <ul className="flex flex-col items-center justify-center text-base font-medium ">
           <li>
             <NavLink
-              to="/#about_section"
+              to="/aboutus"
               onClick={() => setMobileOpen(false)}
               className="block py-3 "
             >
-              About
+              About Us
             </NavLink>
           </li>
           <li>
