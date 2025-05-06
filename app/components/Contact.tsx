@@ -5,7 +5,7 @@ export default function Contact_section() {
   return (
     <div
       id="contact_section"
-      className=" relative py-12 px-12 h-110 sm:h-48 md:h-72 bg-[url('/images/landscape3.jpg')] md:bg-[url('/images/landscape2.jpg')]  bg-cover bg-center text-white font-EBGaramond"
+      className=" relative py-12 px-12 h-110 sm:h-48 md:h-72 bg-[url('/images/vertical_backgrounds/landscape.jpg')] md:bg-[url('/images/panaromic_backgrounds/landscape.jpg')]  bg-cover bg-center text-white font-EBGaramond"
     >
       <div className="absolute inset-0 bg-black/70"></div>
 
@@ -31,7 +31,10 @@ export default function Contact_section() {
               <li>2nd floor, New Jahangir Tower, 9 Fane Road, Lahore</li>
             </ol>
           </div>
-          <div id="contact" className="flex flex-col gap-2 justify-center items-start">
+          <div
+            id="contact"
+            className="flex flex-col gap-2 justify-center items-start"
+          >
             <p className="flex items-center justify-center gap-2">
               <FaSquarePhone /> (+92) 336–4770095
             </p>

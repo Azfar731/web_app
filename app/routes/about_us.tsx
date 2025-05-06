@@ -5,6 +5,7 @@ import {
   RiShieldCheckFill,
   RiHandHeartFill,
 } from "react-icons/ri";
+import Header_Img from "~/components/Header_img";
 
 export function meta() {
   return [
@@ -78,7 +79,7 @@ export default function AboutUsPage() {
 
   return (
     <div>
-      <div className="relative px-6 h-110 md:h-80 lg:h-100 xl:h-120 flex justify-center items-center text-white md:bg-[url('/images/about_us_desktop.jpg')] bg-[url('/images/about_us_mobile.jpg')]  bg-cover bg-center">
+      <div className="relative px-6 h-110 md:h-80 lg:h-100 xl:h-120 flex justify-center items-center text-white md:bg-[url('/images/panaromic_backgrounds/about_us_desktop.jpg')] bg-[url('/images/vertical_backgrounds/about_us.jpg')]  bg-cover bg-center">
         <div className="absolute inset-0 bg-black/50 md:bg-black/70"></div>
         <div className="relative text-center z-10">
           <h1 className=" text-4xl md:text-4xl font-Times-New-Roman font-semibold ">
@@ -86,6 +87,14 @@ export default function AboutUsPage() {
           </h1>
         </div>
       </div>
+      {/* <Header_Img
+        title="About Us"
+        img_src={{
+          sm: "/images/vertical_backgrounds/landscape.jpg",
+          md: "/images/panaromic_backgrounds/about_us_desktop.jpg",
+        }}
+        inset={{ sm: 50, md: 70 }}
+      /> */}
       <main className="w-full pt-20 bg-gray-100">
         <section className="px-6 pb-12 md:w-3/4 mx-auto flex flex-col items-center justify-center gap-4 text-center">
           <h2 className="text-4xl font-Cinzel  text-darkBrown">
