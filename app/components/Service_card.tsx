@@ -34,7 +34,7 @@ export default function ServiceCard({
           {title}
         </h3>
         {description.map((paragraph, index) => (
-          <p key={index} className="text-justify">
+          <p key={index} className="text-justify leading-relaxed">
             {paragraph}
           </p>
         ))}
