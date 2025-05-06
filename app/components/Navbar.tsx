@@ -77,6 +77,11 @@ export default function Navbar() {
               About Us
             </NavLink>
           </li>
+          <li>
+            <NavLink to="/services" className="hover:text-gray-300">
+              Services
+            </NavLink>
+          </li>
           {/* Team dropdown on desktop */}
           <li className="relative group">
             <div
@@ -137,6 +142,15 @@ export default function Navbar() {
               className="block py-3 "
             >
               About Us
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/services"
+              onClick={() => setMobileOpen(false)}
+              className="hover:text-gray-300"
+            >
+              Services
             </NavLink>
           </li>
           <li>
