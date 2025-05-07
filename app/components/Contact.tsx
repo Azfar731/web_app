@@ -5,7 +5,7 @@ export default function Contact_section() {
   return (
     <div
       id="contact_section"
-      className=" relative py-12 px-12 h-110 sm:h-48 md:h-72 bg-[url('/images/vertical_backgrounds/landscape.jpg')] md:bg-[url('/images/panaromic_backgrounds/landscape.jpg')]  bg-cover bg-center text-white font-EBGaramond"
+      className=" relative py-12 px-12 h-110 sm:h-48 md:h-72 bg-[url('/images/vertical_backgrounds/landscape.webp')] md:bg-[url('/images/panaromic_backgrounds/landscape.webp')]  bg-cover bg-center text-white font-EBGaramond"
     >
       <div className="absolute inset-0 bg-black/70"></div>
 
