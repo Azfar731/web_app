@@ -61,7 +61,7 @@ export default function MembersPage() {
 
   return (
     <div>
-      <div className="relative px-6 h-110 md:h-80 lg:h-100 xl:h-120 flex justify-center items-center text-white md:bg-[url('/images/panaromic_backgrounds/members_page.jpg')] bg-[url('/images/vertical_backgrounds/members_page.jpg')]  bg-cover bg-center    ">
+      <div className="relative px-6 h-110 md:h-80 lg:h-100 xl:h-120 flex justify-center items-center text-white md:bg-[url('/images/panaromic_backgrounds/members_page.webp')] bg-[url('/images/vertical_backgrounds/members_page.webp')]  bg-cover bg-center    ">
         <div className="absolute inset-0 bg-black/80 md:bg-black/50"></div>
         <div className="relative text-center z-10">
           <h1 className="text-4xl md:text-4xl font-Times-New-Roman font-semibold ">

@@ -79,7 +79,7 @@ export default function AboutUsPage() {
 
   return (
     <div>
-      <div className="relative px-6 h-110 md:h-80 lg:h-100 xl:h-120 flex justify-center items-center text-white md:bg-[url('/images/panaromic_backgrounds/about_us_desktop.jpg')] bg-[url('/images/vertical_backgrounds/about_us.jpg')]  bg-cover bg-center">
+      <div className="relative px-6 h-110 md:h-80 lg:h-100 xl:h-120 flex justify-center items-center text-white md:bg-[url('/images/panaromic_backgrounds/about_us_desktop.webp')] bg-[url('/images/vertical_backgrounds/about_us.webp')]  bg-cover bg-center">
         <div className="absolute inset-0 bg-black/50 md:bg-black/70"></div>
         <div className="relative text-center z-10">
           <h1 className=" text-4xl md:text-4xl font-Times-New-Roman font-semibold ">
@@ -90,8 +90,8 @@ export default function AboutUsPage() {
       {/* <Header_Img
         title="About Us"
         img_src={{
-          sm: "/images/vertical_backgrounds/landscape.jpg",
-          md: "/images/panaromic_backgrounds/about_us_desktop.jpg",
+          sm: "/images/vertical_backgrounds/landscape.webp",
+          md: "/images/panaromic_backgrounds/about_us_desktop.webp",
         }}
         inset={{ sm: 50, md: 70 }}
       /> */}
