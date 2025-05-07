@@ -11,7 +11,7 @@ export default function Brand_Logos({
   return (
     <div
       onClick={() => setIsColored((prev) => !prev)}
-      className=" bg-white  rounded-2xl shadow-md p-6 w-40 h-32 flex items-center justify-center"
+      className=" bg-white  rounded-2xl shadow-md p-2 w-40 h-32 flex items-center justify-center"
     >
       <img
         src={src}
