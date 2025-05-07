@@ -34,7 +34,7 @@ export function meta() {
       content:
         "Learn about the foundation and guiding principles of Khalil & Khalil. Meet the team that delivers trusted, high‑caliber legal representation across corporate, civil, and family matters.",
     },
-    { property: "og:image", content: "/assets/og_about_us.webp" }, // adjust path/name
+    { property: "og:image", content: "/assets/og_logo_webp.webp" }, // adjust path/name
     { property: "og:locale", content: "en_PK" },
 
     /* ── Twitter Cards ──────────────────────────────────── */

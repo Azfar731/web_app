@@ -3,6 +3,55 @@ import MemberCard from "~/components/MemberCard";
 import membersData from "~/data/team.json";
 import { RiTeamFill } from "react-icons/ri";
 
+
+
+export function meta() {
+  return [
+    /* ── Core ───────────────────────────────────────────── */
+    { title: "Our Team – Khalil & Khalil | Lawyers in Phalia, Pakistan" },
+    {
+      name: "description",
+      content:
+        "Meet the accomplished attorneys and legal professionals who drive Khalil & Khalil’s reputation for excellence across corporate, civil, property, and family law in Phalia, Pakistan.",
+    },
+    {
+      name: "keywords",
+      content:
+        "Khalil & Khalil team, law firm members, attorneys, lawyers, legal professionals, corporate lawyers, civil litigation, Phalia, Pakistan",
+    },
+    { name: "author", content: "Khalil & Khalil" },
+
+    /* ── Open Graph ─────────────────────────────────────── */
+    {
+      property: "og:title",
+      content: "Our Team – Khalil & Khalil | Lawyers in Phalia, Pakistan",
+    },
+    { property: "og:type", content: "website" },
+    {
+      property: "og:description",
+      content:
+        "Explore the experience and credentials of Khalil & Khalil’s diverse team of legal experts dedicated to delivering trusted counsel.",
+    },
+    { property: "og:image", content: "/assets/og_members.webp" }, // update path as needed
+    { property: "og:locale", content: "en_PK" },
+
+    /* ── Twitter Cards ──────────────────────────────────── */
+    { name: "twitter:card", content: "summary_large_image" },
+    { name: "twitter:site", content: "@KhalilandKhalil" },
+    {
+      name: "twitter:title",
+      content: "Our Team – Khalil & Khalil | Lawyers in Phalia, Pakistan",
+    },
+    {
+      name: "twitter:description",
+      content:
+        "Get to know the lawyers and professionals who uphold Khalil & Khalil’s commitment to excellence and client trust.",
+    },
+    { name: "twitter:image", content: "/assets/og_members.webp" },
+  ];
+}
+
+
 export default function MembersPage() {
   const memberCards = membersData.map((member) => (
     <Link to={`/members/${member.name.replace(/ /g, "-")}`} key={member.name}>

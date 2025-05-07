@@ -1,8 +1,59 @@
-import Header_Img from "~/components/Header_img";
 import servicesData from "~/data/services.json";
 import Service_Card from "~/components/Service_card";
 import Intro_Line from "~/components/Intro_Line";
 import { FaScaleBalanced } from "react-icons/fa6";
+
+export function meta() {
+  return [
+    /* ── Core ───────────────────────────────────────────── */
+    {
+      title:
+        "Legal Services – Khalil & Khalil | Civil, Criminal, Family & Corporate Lawyers in Phalia, Pakistan",
+    },
+    {
+      name: "description",
+      content:
+        "Browse Khalil & Khalil’s full spectrum of legal services: Civil, Criminal, Family, Corporate & Commercial, Cooperative & Property, and Intellectual Property law. Each area is handled by seasoned advocates committed to strategic, results‑oriented counsel in Phalia, Pakistan.",
+    },
+    {
+      name: "keywords",
+      content:
+        "legal services, civil law, criminal law, family law, corporate law, commercial law, cooperative law, property law, intellectual property, trademark law, Phalia, Pakistan, Khalil & Khalil",
+    },
+    { name: "author", content: "Khalil & Khalil" },
+
+    /* ── Open Graph ─────────────────────────────────────── */
+    {
+      property: "og:title",
+      content:
+        "Legal Services – Khalil & Khalil | Civil, Criminal, Family & Corporate Lawyers in Phalia, Pakistan",
+    },
+    { property: "og:type", content: "website" },
+    {
+      property: "og:description",
+      content:
+        "Discover how Khalil & Khalil guides clients through civil disputes, criminal defense, family matters, corporate transactions, property issues, and IP protection—all under one roof.",
+    },
+    { property: "og:image", content: "/assets/og_logo_webp.webp" }, // update path as needed
+    { property: "og:locale", content: "en_PK" },
+
+    /* ── Twitter Cards ──────────────────────────────────── */
+    { name: "twitter:card", content: "summary_large_image" },
+    { name: "twitter:site", content: "@KhalilandKhalil" },
+    {
+      name: "twitter:title",
+      content:
+        "Legal Services – Khalil & Khalil | Civil, Criminal, Family & Corporate Lawyers",
+    },
+    {
+      name: "twitter:description",
+      content:
+        "Explore the breadth of services offered by Khalil & Khalil, from civil litigation to IP protection, delivered with excellence and integrity.",
+    },
+    { name: "twitter:image", content: "/assets/og_services.webp" },
+  ];
+}
+
 export default function Services() {
   const serviceCards = servicesData.map((service, index) => (
     <Service_Card
