@@ -1,11 +1,14 @@
 export default function About_section() {
   return (
     <>
-      <div id="about_section" className="pt-12 bg-white flex flex-col justify-center items-center scroll-mt-20">
+      <div
+        id="about_section"
+        className="pt-12 bg-white flex flex-col justify-center items-center scroll-mt-20"
+      >
         <h2 className="text-gray-800 text-4xl uppercase font-Cinzel ">
           Our Expertise
         </h2>
-        <div  className="mt-4 px-6 py-12 lg:max-xl:py-8 xl:pl-24 bg-gray-200 w-full lg:flex lg:items-center lg:justify-start lg:gap-8">
+        <div className="mt-4 px-6 py-12 lg:max-xl:py-8 xl:pl-24 bg-gray-200 w-full lg:flex lg:items-center lg:justify-start lg:gap-8">
           <div className="relative w-128 h-52 max-lg:hidden">
             <img
               src="images/focus.jpg"
@@ -27,13 +30,13 @@ export default function About_section() {
           <div>
             <h3 className="font-Abril text-2xl text-bronze">Services</h3>
             <p className="pt-3 lg:w-128 text-gray-100 text-xl font-EBGaramond font-medium">
-              Tax Litigation &amp; Tax Controversy – We represent taxpayers in
-              complex federal tax litigation and criminal tax cases. Matters
-              include conservation easements, captive insurance, estate taxes,
-              employment taxes, promoter penalties, preparer penalties, and all
-              other civil tax penalties. We also represent taxpayers in federal
-              tax controversies over payroll taxes, tax liens, tax levies, and
-              unfiled returns.
+              We offer comprehensive legal expertise in Criminal,
+              Civil, and Family Law, alongside specialized services in Corporate
+              & Commercial matters, Cooperative & Property Law, and Intellectual
+              Property & Trademark protection. With dedicated counsel and
+              effective representation, we navigate complex legal landscapes to
+              ensure optimal outcomes tailored precisely to our clients’ diverse
+              needs.
             </p>
           </div>
           <div className="relative w-128 h-52 max-lg:hidden">
