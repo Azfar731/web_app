@@ -3,7 +3,6 @@ import type { Route } from "./+types/home";
 import About_section from "~/components/About";
 import Clients_section from "~/components/Clients";
 
-
 export function meta({}: Route.MetaArgs) {
   return [
     { title: "Khalil & Khalil – Leading Law Firm in Phalia, Pakistan" },
@@ -34,7 +33,9 @@ export function meta({}: Route.MetaArgs) {
       content:
         "Providing comprehensive legal representation and counsel in Phalia, Pakistan across corporate, civil, and family law matters.",
     },
-    { property: "og:image", content: "/assets/og_logo_webp.webp" },
+    { property: "og:image", content: "/assets/og_logo_jpg.jpg" },
+    { property: "og:image:width", content: "1200" },
+    { property: "og:image:height", content: "630" },
     { property: "og:locale", content: "en_PK" },
 
     // Twitter Cards
@@ -58,7 +59,6 @@ export default function Home() {
       <Intro />
       <About_section />
       <Clients_section />
-      
     </div>
   );
 }
