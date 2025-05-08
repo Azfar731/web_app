@@ -1,9 +1,9 @@
 export default function Intro() {
   return (
-    <div className="relative overflow-hidden bg-introBg h-screen  px-6 pt-32 md:pt-42  xl:flex xl:items-center xl:justify-end xl:pr-32">
+    <div className="relative overflow-hidden bg-introBg h-150 md:h-120 lg:h-150 xl:h-160  px-6 pt-32 lg:pt-42 xl:pt-10 xl:flex xl:items-center xl:justify-end ">
       <div className="absolute bottom-0 -right-0 xl:left-0  z-0">
         <img
-          src="/assets/k_3.png"
+          src="/assets/k_3.webp"
           alt="K"
           className="w-[180px] md:w-[300px] lg:w-[400px] xl:w-[700px] object-contain"
         />
