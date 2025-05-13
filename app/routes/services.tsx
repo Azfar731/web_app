@@ -68,7 +68,7 @@ export default function Services() {
   return (
     <div>
       <div
-        className={`relative px-6 h-110 md:h-80 lg:h-100 xl:h-120 flex justify-center items-center text-white bg-[url('/images/vertical_backgrounds/services_page.webp')]  md:bg-[url('/images/panaromic_backgrounds/services_page.webp')] bg-cover bg-center    `}
+        className={`relative px-6 h-110 md:h-80 lg:h-100 xl:h-120 flex justify-center items-center text-white bg-[url('/images/vertical_backgrounds/services_page.webp')]  md:bg-[url('/images/panaromic_backgrounds/services_page.webp')]  bg-cover bg-center    `}
       >
         <div className={`absolute inset-0 bg-black/70 md:bg-black/70`}></div>
         <div className="relative text-center z-10">
