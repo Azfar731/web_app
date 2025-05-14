@@ -54,29 +54,6 @@ export function meta() {
 }
 
 export default function AboutUsPage() {
-  const values = [
-    {
-      Icon: RiMedalFill,
-      heading: "Excellence",
-      text: "We uphold the highest standards in all aspects of our work. Every matter is approached with strategic focus, attention to detail, and a commitment to delivering outcomes that reflect our firm’s dedication to quality",
-    },
-    {
-      Icon: RiShieldCheckFill,
-      heading: "Integrity",
-      text: "Our practice is rooted in honesty, transparency, and ethical responsibility. We represent our clients with unwavering loyalty while respecting the law and the institutions that uphold it.",
-    },
-    {
-      Icon: RiHandHeartFill,
-      heading: "COMMITMENT",
-      text: "We take ownership of our clients' challenges as our own. Our team works with consistency, resilience, and discipline to ensure every case is handled with the attention and care it deserves.",
-    },
-    {
-      Icon: FaHandshake,
-      heading: "TRUST",
-      text: "We value the confidence our clients place in us. Through clear communication and reliable counsel, we strive to earn and maintain trust that lasts beyond a single case or transaction.",
-    },
-  ];
-
   return (
     <div>
       <div className="relative px-6 h-110 md:h-80 lg:h-100 xl:h-120 flex justify-center items-center text-white md:bg-[url('/images/panaromic_backgrounds/about_us_desktop.webp')] bg-[url('/images/vertical_backgrounds/about_us.webp')]  bg-cover bg-center">
@@ -95,7 +72,7 @@ export default function AboutUsPage() {
         }}
         inset={{ sm: 50, md: 70 }}
       /> */}
-      <main className="w-full pt-20 bg-gray-100">
+      <main className="w-full pt-20 pb-20 bg-gray-100">
         <section className="px-6 pb-12 md:w-3/4 mx-auto flex flex-col items-center justify-center gap-4 text-center">
           <h2 className="text-4xl font-Cinzel  text-darkBrown">
             Our <span className="text-bronze">Foundation</span>
@@ -123,57 +100,7 @@ export default function AboutUsPage() {
             trust and performance.
           </p>
         </section>
-        <section className="bg-white px-6 pt-12 pb-20 mx-auto flex flex-col items-center justify-center gap-8 text-center">
-          <h2 className="text-4xl font-Cinzel  text-darkBrown">
-            Our <span className="text-bronze">Values</span>
-          </h2>
-          <p className="font-EBGaramond">
-            Driven by{" "}
-            <span className="font-semibold text-darkBrown ">
-              <span className="text-lg">E</span>xcellence
-            </span>
-            . Grounded in{" "}
-            <span className="font-semibold text-bronze">
-              <span className="text-lg">I</span>ntegrity
-            </span>
-            . Committed to{" "}
-            <span className="font-semibold text-lightBrown ">
-              <span className="text-lg">Y</span>ou
-            </span>
-            .
-          </p>
-          <div id="card-container">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
-              {values.map((value, index) => (
-                <Card
-                  key={index}
-                  Icon={value.Icon}
-                  heading={value.heading}
-                  text={value.text}
-                />
-              ))}
-            </div>
-          </div>
-        </section>
       </main>
-    </div>
-  );
-}
-
-function Card({
-  Icon,
-  heading,
-  text,
-}: {
-  Icon: IconType;
-  heading: string;
-  text: string;
-}) {
-  return (
-    <div className="pt-8 pb-12 px-4  bg-gray-100 rounded-lg border-b-8 border-bronze  flex flex-col items-center justify-center gap-4 text-center">
-      <Icon className="w-16 h-16 text-bronze" />
-      <h3 className="text-2xl font-Cinzel text-darkBrown">{heading}</h3>
-      <p className="text-justify font-EBGaramond">{text}</p>
     </div>
   );
 }

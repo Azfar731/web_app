@@ -56,6 +56,11 @@ export default function Navbar() {
             </NavLink>
           </li>
           <li>
+            <NavLink to="/our-values" className="hover:text-gray-300">
+              Our Values
+            </NavLink>
+          </li>
+          <li>
             <NavLink to="#contact_section" className="hover:text-gray-300">
               Location
             </NavLink>
@@ -95,6 +100,15 @@ export default function Navbar() {
               className="block py-3"
             >
               Members
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/our-values"
+              onClick={() => setMobileOpen(false)}
+              className="block py-3"
+            >
+              Our Values
             </NavLink>
           </li>
           <li>
