@@ -94,22 +94,6 @@ export default function MemberPage({ loaderData }: Route.ComponentProps) {
         </div>
       </div>
 
-      <div className="border-b border-black pt-6 pb-10">
-        {memberData.info.map((info, index) => (
-          <div key={index} className="mt-4">
-            <h3 className="font-EBGaramond text-gray-700 font-bold mb-2">
-              {info.heading}
-            </h3>
-            <ul className="list-disc pl-5 ">
-              {info.points.map((point, i) => (
-                <li key={i} className="font-EBGaramond text-gray-600">
-                  {point}
-                </li>
-              ))}
-            </ul>
-          </div>
-        ))}
-      </div>
       <div id="contact">
         {memberData.contact && (
           <div className="py-10">
